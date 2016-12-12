@@ -11,6 +11,10 @@
     "prepublish": "npm run build",
     "postversion": "git push && git push --tags && npm publish"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "peerDependencies": {
     "react": "^15.4.1"
   },
