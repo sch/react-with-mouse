@@ -1,0 +1,25 @@
+{
+  "name": "react-with-mouse",
+  "version": "0.0.0",
+  "description": "Provide the position of the mouse as a ratio of the total size of the parent",
+  "main": "dist/react-with-mouse.js",
+  "jsnext:main": "dist/react-with-mouse.es.js",
+  "author": "Adrian Schaedle",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config",
+    "prepublish": "npm run build",
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "peerDependencies": {
+    "react": "^15.4.1"
+  },
+  "devDependencies": {
+    "rollup": "^0.36.4",
+    "rollup-plugin-commonjs": "^5.0.5",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  },
+  "dependencies": {
+    "lodash.throttle": "^4.1.1"
+  }
+}
