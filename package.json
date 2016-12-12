@@ -1,6 +1,6 @@
 {
   "name": "react-with-mouse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provide the position of the mouse as a ratio of the total size of the parent",
   "main": "dist/react-with-mouse.js",
   "jsnext:main": "dist/react-with-mouse.es.js",
